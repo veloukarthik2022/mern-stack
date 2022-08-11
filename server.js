@@ -21,7 +21,7 @@ app.get('*', (req, res) =>{
   res.sendFile(path.join(__dirname, 'view/mern-stack/build', 'index.html')); 
 });
 
-
+const MONGO = '';
 
 mongoose.connect(process.env.MONGO_URI,{
   useNewUrlParser: true,
